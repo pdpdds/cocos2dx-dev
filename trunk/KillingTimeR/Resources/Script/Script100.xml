@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Conversaion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>민준혁씨 어떻게 된 거죠? 나머지 멤버는요?</Text>
+	</Info>
+	<Info>
+		<Name>민준혁</Name>
+		<Gesture>0</Gesture>
+		<Text>아 이민수씨. 오신다는 건 이미나양에서 들었습니다 저도 금방왔어요. 아 옆에 계신분은 신유라씨입니다. 신유라씨 인사하시죠. 이분은 이민수씨입니다. 이번에 특별히 저희 클럽 행사에 참가하게 되었지요.</Text>
+	</Info>
+	<Info>
+		<Name>신유라</Name>
+		<Gesture>0</Gesture>
+		<Text>안녕하세요. 저는 신유라라고 합니다. OO일보에서 신문기자라고 일하고 있습니다. 잘 부탁드려요.</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>안녕하세요. 저는 OO대학교 심리학과 3학년에 재학중인 이민수라고 합니다. 저야말로 잘 부탁 드립니다. 그런데 신유라씨. 나머지 멤버들은 어떻게 된거죠? 아직 도착하지 않은건가요?</Text>
+	</Info>
+	<Info>
+		<Name>신유라</Name>
+		<Gesture>0</Gesture>
+		<Text>아뇨. 이미 도착했답니다. 아까전까지만 해도 6명 모두 전부 여기에 있었어요. 근데 좀전에 건물 3층에서 빛같은 것이 일렁이는 것이 보였는데 그걸 본 진한수씨가 모두에게 빨리 올라가 보자고 충동질했죠. 그런데 이상하게도 모두 반대를 하지 않아서 그들은 건물 내부로 들어간 겁니다. 저는 아직 도착하지 않은 사람들을 위해 남아야 됐군요.</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>그랬군요. 그런데 학교 열쇠는 누가 가지고 있지요? 열쇠가 있어야 교실이라든지 기타 건물에 들어갈 수 있을텐데요.</Text>
+	</Info>
+	<Info>
+		<Name>민준혁</Name>
+		<Gesture>0</Gesture>
+		<Text>열쇠는 제가 관리인한테 전에 받았습니다. 마스터 키뭉치가 두개 있었는데 이미나양에게 하나 주고 지금 제가 하나 가지고 있습니다.</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>지금부터 어떻게 하면 좋을까요? …..</Text>
+	</Info>
+	<Info>
+		<Name>신유라</Name>
+		<Gesture>0</Gesture>
+		<Text>우리들도 3층에 올라가는 편이 좋지 않겠어요? 마냥 여기에서 기다리기는... 재미도 없고 스릴도 없을테니까요.</Text>
+	</Info>
+	<Info>
+		<Name>민준혁</Name>
+		<Gesture>0</Gesture>
+		<Text>그러는 편이 좋겠군요. 그럼 우리도 빨리 3층으로 가보도록 하죠.</Text>
+	</Info>
+</Conversaion>

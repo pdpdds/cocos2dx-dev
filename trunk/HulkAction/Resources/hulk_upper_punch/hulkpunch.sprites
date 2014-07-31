@@ -1,0 +1,53 @@
+hulkpunch.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slice_0_1
+  rotate: false
+  xy: 494, 0
+  size: 219, 229
+  orig: 520, 110
+  offset: 26, 110
+  index: -1
+slice_0_2
+  rotate: false
+  xy: 247, 0
+  size: 219, 227
+  orig: 247, 111
+  offset: 0, 111
+  index: -1
+slice_0_3
+  rotate: false
+  xy: 0, 0
+  size: 218, 226
+  orig: 11, 113
+  offset: 11, 113
+  index: -1
+slice_0_4
+  rotate: false
+  xy: 741, 0
+  size: 247, 252
+  orig: 746, 87
+  offset: 5, 87
+  index: -1
+slice_0_5
+  rotate: false
+  xy: 494, 328
+  size: 211, 320
+  orig: 494, 347
+  offset: 0, 19
+  index: -1
+slice_0_6
+  rotate: false
+  xy: 0, 328
+  size: 193, 328
+  orig: 8, 338
+  offset: 8, 10
+  index: -1
+slice_0_7
+  rotate: false
+  xy: 247, 328
+  size: 193, 328
+  orig: 270, 338
+  offset: 23, 10
+  index: -1

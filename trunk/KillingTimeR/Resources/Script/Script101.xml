@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Conversaion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Info>
+		<Name>민준혁</Name>
+		<Gesture>0</Gesture>
+		<Text>이민수씨 신유라씨, 저는 화장실에 잠시 갔다 올테니 먼저들 올라가시죠. 나중에 저도 곧 가겠습니다.</Text>
+	</Info>
+	<Info>
+		<Name>신유라</Name>
+		<Gesture>0</Gesture>
+		<Text>혼자서… 무섭지 않겠어요?</Text>
+	</Info>
+	<Info>
+		<Name>민준혁</Name>
+		<Gesture>0</Gesture>
+		<Text>아뇨. 제가 다니는 학교라 어디에 뭐가 있는지 다 알고 있기 때문에 어두워도 친숙해요.</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>알겠습니다. 그럼 저희 먼저 가 있겠습니다.</Text>
+	</Info>
+	<Info>
+		<Name>신유라</Name>
+		<Gesture>0</Gesture>
+		<Text>천천히 오세요.</Text>
+	</Info>
+</Conversaion>

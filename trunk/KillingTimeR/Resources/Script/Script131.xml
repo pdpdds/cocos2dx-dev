@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Conversaion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>앗 뭐지... 눈에 보이지 않는 뭔가가 접근해 온다....</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>(앗 그것이 내 몸속에 스며드는 것 같다)</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>...........</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>...........</Text>
+	</Info>
+</Conversaion>

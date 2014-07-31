@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <tileset name="TileSet1" firstgid="1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="fixed-ortho-test2.png"/>
+  <tile id="2">
+   <properties>
+    <property name="Collision" value="True"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Collision" value="True"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Flower" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tiles" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNgIAyWAvEyItQRC2Dm9QJxHwn6VIC4AQtuBOImNLXoZhthMU8IhxsmA/EUIJ4KxNOw6GdFwujuwwawhR8rDozsdjMc5m0H4h045PABDygN80s9A/bwQw4TfHGEy/2w8KMWIJT+5IkwA1kNLPywpQl8IBmIU4A4lQGSdtDDD1tY4AOlQFwGxOUMqGkHW/ojBrQDcQeUjZx2SMm/oHA6CMSHGCDhMwsq7oGkBjn9EQpDZipjAAEu9e2wBAAA
+  </data>
+ </layer>
+ <layer name="Flowers" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNgGP5AHgkPpBkDDeSx4JEMRsOCOBCEhrGlI1yY2gAAyx64PbAEAAA=
+  </data>
+ </layer>
+</map>

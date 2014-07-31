@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerState">
+      <UniqueIdentifier>{3560bac1-59de-439f-b704-6b3da8841527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{171b0777-1430-4ab6-973d-485d1c6ea625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layer">
+      <UniqueIdentifier>{f25f9b68-da31-478f-9a46-dd89c7c9c2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{90d8a78d-cd35-497d-9b11-81c9c817c690}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerVoid.cpp">
+      <Filter>PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerState.cpp">
+      <Filter>PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerRope.cpp">
+      <Filter>PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerGround.cpp">
+      <Filter>PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerFSM.cpp">
+      <Filter>PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelSelectLayer.cpp">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuLayer.cpp">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MTCloud.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MTPlatform.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerPlatform.cpp">
+      <Filter>PlayerState</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerVoid.h">
+      <Filter>PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerState.h">
+      <Filter>PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerRope.h">
+      <Filter>PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerGround.h">
+      <Filter>PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerFSM.h">
+      <Filter>PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameDefines.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuLayer.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelSelectLayer.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MTCloud.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MTPlatform.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerPlatform.h">
+      <Filter>PlayerState</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Conversaion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>당신은 누구세요. 여기서 뭐하시는 겁니까?</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>.......</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>.......</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>아 나는 박동식이라고 하네만</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>자네는… 아 자네가 이민수인가?</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>예 그렇습니다. 아 클럽 멤버셨군요. 전 또 외부인인줄 알았습니다. 그런데 왜 여기에 계십니까? 문을 걸어잠그고 말입니다.</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>아... 지금 큰일났네… 유기완과 신유라가 죽었어…</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text> 아니 뭐라구요? 어떻게 된 겁니까? 도대체 일이 어떻게 돌아가고 있는거죠?</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>아까 나는 사람들과 옥상에 있었지.. 좀 있자니 신유라가 오더군. 난 신유라를 별로 좋아하지 않네. 그녀가 나에대해 않좋은 기사를 쓴 적이 있기 때문이지.</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>어쨌든 나는 그녀를 대하기가 껄끄러워서 바로 옥상을 내려왔다네.</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>어, 이미나양은 없었나요?</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>신유라 그녀 혼자만 왔었는데....</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>어쨌든 나는 화장실에 갈려고 2층에 내려왔지. 그런데 갑자기 윗쪽에서 비명소리가 들리는 것이 아닌가?</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>(..... 좀 이상하군... 비명소리가 2층에서 들렸다면 내가 못들었을리가 없는데...)</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>나는 곧장 옥상으로 향했지...</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>그런데 옥상문은 잠겨있었고 열리지 않았네. 마침 그자리에는 마수천하고 노상조씨가 있었는데 그들도 비명소리를 듣고 왔다고 하더군.. 문은 안에서도 잠글 수 있고 밖에서도 잠글 수 있는 문이었어. </Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>그런데... 지금까지의 얘기를 종합해보면 그 둘이 죽는 것을 목격한 사람이 없는 것 같은데 어떻게 그 둘이 죽었다고 단정하는 것이지요?</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>아아 그래.. 나중에 4층으로 한명이 더 왔어. 진한수가 왔지... 그는 아까 일렁이는 불빛을 봤다는 3층 건물에 있었다고 해. 아무 생각없이 창가를 바라보고 있는데 갑자기 사람몸이 떨어지는 것을 봤다고 하지 않겠는가? 그후 몇초후에 또다른 사람이 떨어지는 것을 목격했다고 하는데.... 비명소리는 남자것과 여자의 것이었는데 톤으로 봐서 유기환과 신유라의 비명소리가 틀림없었다고 확신하네.</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>옥상으로 내려오기 전에 누가 있었나요?</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>신유라하고 유기환외에 나하고 노상조씨, 진한수, 그리고 마수천이 있었네....</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>음........</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>그런데 왜 여기 숨어 계신겁니까? 범인이 아직 옥상에 남아 있을지도 모르는데 노상조씨가 위험하지 않습니까? 같이 있으면 좋을텐데…</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>뭐가 두려운거지요?</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>이보게.. 옥상문을 잠글 수 있는 인물이라면 민준혁과 이미나밖에 없는데... 이들은 보이지도 않네. 아마 이 둘중에 누군가 범인일꺼야. 게다가 너도 알겠지만 중앙현관문도 잠겨있어. 누군가... 의도적으로 우릴 죽일려고 하는 게 틀림없단 말이야!!</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>살인은 함부로 입대 댈수 없는 잔인한 짓이지만...</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>이때까지의 경험으로는 이유없는 살인은 없다고 봅니다. 즉 저는 별로 살인자를 두려워하지 않는단 뜻입니다. 박동식씨 당신은 분명 뭔가 원한을 살만할 짓을 한 것 같은데.... 아닙니까?</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>아니야... 아니야....</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>.....</Text>
+	</Info>
+	<Info>
+		<Name>박동식</Name>
+		<Gesture>0</Gesture>
+		<Text>난 원한을 살 만한 짓은 하지 않았어.. 난 하지 않았다구... 단지 모른척 했을 뿐이란 말이야..</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>-1</Gesture>
+		<Text>이봐요 잠깐만요... 박동식씨!</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>저런.. 뭔가가 있는 것 같은데... 이대론 박동식씨도 위험하겠군. 아 생각같아서는 3층 교실의 창문을 열어 뛰어내리고 싶지만... 2층이라면 몰라도 3층은 좀 위험하니 뛰어내릴수도 없고... 게다가 너무 어두워서 밑에 뭐가 있는지 보이지도 않으니 함부로 뛰어내릴 수는 없는 노릇이다. 일단 지금은 노상조씨가 위험한 것 같은데 빨리 그에게 가봐야 겠다.</Text>
+	</Info>
+</Conversaion>

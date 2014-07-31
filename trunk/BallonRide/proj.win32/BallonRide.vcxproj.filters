@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes">
+      <UniqueIdentifier>{128e07a6-19ce-45eb-b52a-f7929442a421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObjects">
+      <UniqueIdentifier>{130514d7-11d5-43ef-8fe4-b50460e1e5e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\EndScene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\MainScene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\StartScene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\AnimatedObject.cpp">
+      <Filter>Classes\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\Balloon.cpp">
+      <Filter>Classes\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjects\Enemy.cpp">
+      <Filter>Classes\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnemyGenerator.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\EndScene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\MainScene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\StartScene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\AnimatedObject.h">
+      <Filter>Classes\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\Balloon.h">
+      <Filter>Classes\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjects\Enemy.h">
+      <Filter>Classes\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemyGenerator.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Conversaion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>엇 왜 갑자기 전화가...?</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>.........</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>.........</Text>
+	</Info>
+	<Info>
+		<Name>이민수</Name>
+		<Gesture>0</Gesture>
+		<Text>앗 그래.. 전화를 걸어서 도움요청을 하면 되겠군. 일단 저 전화를 받아보자.</Text>
+	</Info>
+</Conversaion>
