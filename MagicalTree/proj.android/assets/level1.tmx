@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="150" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="treetile" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="treetile.png" width="640" height="400"/>
+ </tileset>
+ <layer name="TreeLayer" width="10" height="150">
+  <data encoding="base64" compression="zlib">
+   eJztzbENACAMA0GvzlRkvNBSIMo095K7k5zc7bPKP47jOI7jOI7jOI7jOI7jOI6bdGvo91UDF2bVZg==
+  </data>
+ </layer>
+ <layer name="ToeholdLayer" width="10" height="150">
+  <data encoding="base64" compression="zlib">
+   eJzt10EKgCAQQFELgm4Udrku40FjwEAGghk1c/EffIjIrIWgIQAAAGBmmzEA4+yqNafvA8DjUI0a3zrv1/PM/n3iqhyH/3j2xi3PLqpW3j19rzPAqer5T0LWUMyV6ygW1bwz5SzSy7WH9Vx2A9fADKg=
+  </data>
+ </layer>
+ <layer name="RopeLayer" width="10" height="150">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENACAIAEFmcCr3n0gXMNFCA+au/krACAAAqmg63dQ3O+7Lvis6nW7NX8qp7Dv9S1ftNrO/pzm+NwD9FgTb
+  </data>
+ </layer>
+ <objectgroup name="PlayerLayer" width="10" height="150" visible="0">
+  <object name="PlayerLoc" x="115" y="4742"/>
+ </objectgroup>
+ <objectgroup name="ItemLayer" width="10" height="150" visible="0">
+  <object name="item" x="11" y="4531">
+   <properties>
+    <property name="ItemName" value="flower"/>
+   </properties>
+  </object>
+  <object name="item" x="206" y="4692">
+   <properties>
+    <property name="ItemName" value="flower"/>
+   </properties>
+  </object>
+  <object name="item" x="205" y="4406">
+   <properties>
+    <property name="ItemName" value="flower"/>
+   </properties>
+  </object>
+  <object name="item" x="302" y="4339">
+   <properties>
+    <property name="ItemName" value="flower"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="EnemyFreeLayer" width="10" height="150" visible="0">
+  <object name="Cloud" x="337" y="3550"/>
+  <object name="Cloud" x="62" y="3021"/>
+  <object name="Cloud" x="260" y="3057"/>
+  <object name="Cloud" x="273" y="2836"/>
+  <object name="Cloud" x="250" y="3270"/>
+  <object name="Cloud" x="50" y="3273"/>
+  <object name="Cloud" x="37" y="3445"/>
+  <object name="Cloud" x="318" y="3398"/>
+  <object name="Cloud" x="23" y="3634"/>
+  <object name="Cloud" x="285" y="3687"/>
+ </objectgroup>
+ <objectgroup name="EndingPointLayer" width="10" height="150" visible="0">
+  <object name="EndPoint" x="2" y="1944" width="314" height="42"/>
+ </objectgroup>
+ <objectgroup name="MovingPlatformLayer" width="10" height="150">
+  <object name="SimplePlatform" x="56" y="2480"/>
+  <object name="SimplePlatform" x="188" y="2445"/>
+  <object name="SimplePlatform" x="249" y="2481"/>
+  <object name="SimplePlatform" x="178" y="2508"/>
+  <object name="SimplePlatform" x="130" y="2545"/>
+  <object name="SimplePlatform" x="43" y="2570"/>
+  <object name="SimplePlatform" x="103" y="2608"/>
+  <object name="SimplePlatform" x="204" y="2641"/>
+  <object name="SimplePlatform" x="95" y="2675"/>
+ </objectgroup>
+</map>

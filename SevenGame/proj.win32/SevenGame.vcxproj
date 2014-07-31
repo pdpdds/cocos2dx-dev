@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;../Classes/sockets;../Classes/NetworkHandler;$(ProjectDir)..\..\..\external\protobuf\src;../Classes/Logic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;libprotobuf.lib;libprotobuf-lite.lib;libprotoc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\Logic\SGManager.cpp" />
+    <ClCompile Include="..\Classes\Logic\SGTable.cpp" />
+    <ClCompile Include="..\Classes\Logic\SGUser.cpp" />
+    <ClCompile Include="..\Classes\LoginLayer.cpp" />
+    <ClCompile Include="..\Classes\NetworkFacade.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\DataBuffer.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\IOBuffer.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\PacketCore.pb.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetworkHandler\ProtobufHandler.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\ProtobufSocket.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\ProtocolHandler.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\ProtocolSocket.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\SevenGamePacket.pb.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetworkHandler\SevenGameProtocol.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\SFPacket.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\SFPacketStore.pb.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetworkHandler\SFProtobufPacket.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\SFProtobufPacketImpl.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\SFProtobufProtocol.cpp" />
+    <ClCompile Include="..\Classes\NetworkHandler\SFProtocol.cpp" />
+    <ClCompile Include="..\Classes\sockets\Base64.cpp" />
+    <ClCompile Include="..\Classes\sockets\Debug.cpp" />
+    <ClCompile Include="..\Classes\sockets\Event.cpp" />
+    <ClCompile Include="..\Classes\sockets\EventHandler.cpp" />
+    <ClCompile Include="..\Classes\sockets\EventTime.cpp" />
+    <ClCompile Include="..\Classes\sockets\Exception.cpp" />
+    <ClCompile Include="..\Classes\sockets\File.cpp" />
+    <ClCompile Include="..\Classes\sockets\FileStream.cpp" />
+    <ClCompile Include="..\Classes\sockets\HttpTransaction.cpp" />
+    <ClCompile Include="..\Classes\sockets\IEventOwner.cpp" />
+    <ClCompile Include="..\Classes\sockets\Ipv4Address.cpp" />
+    <ClCompile Include="..\Classes\sockets\Ipv6Address.cpp" />
+    <ClCompile Include="..\Classes\sockets\Json.cpp" />
+    <ClCompile Include="..\Classes\sockets\Lock.cpp" />
+    <ClCompile Include="..\Classes\sockets\MemFile.cpp" />
+    <ClCompile Include="..\Classes\sockets\Mutex.cpp" />
+    <ClCompile Include="..\Classes\sockets\Parse.cpp" />
+    <ClCompile Include="..\Classes\sockets\ResolvServer.cpp" />
+    <ClCompile Include="..\Classes\sockets\ResolvSocket.cpp" />
+    <ClCompile Include="..\Classes\sockets\SctpSocket.cpp" />
+    <ClCompile Include="..\Classes\sockets\Semaphore.cpp" />
+    <ClCompile Include="..\Classes\sockets\Socket.cpp" />
+    <ClCompile Include="..\Classes\sockets\SocketHandler.cpp" />
+    <ClCompile Include="..\Classes\sockets\SocketHandlerEp.cpp" />
+    <ClCompile Include="..\Classes\sockets\SocketHandlerThread.cpp" />
+    <ClCompile Include="..\Classes\sockets\SocketStream.cpp" />
+    <ClCompile Include="..\Classes\sockets\SocketThread.cpp" />
+    <ClCompile Include="..\Classes\sockets\socket_include.cpp" />
+    <ClCompile Include="..\Classes\sockets\SSLInitializer.cpp" />
+    <ClCompile Include="..\Classes\sockets\StdoutLog.cpp" />
+    <ClCompile Include="..\Classes\sockets\StreamSocket.cpp" />
+    <ClCompile Include="..\Classes\sockets\StreamWriter.cpp" />
+    <ClCompile Include="..\Classes\sockets\TcpSocket.cpp" />
+    <ClCompile Include="..\Classes\sockets\Thread.cpp" />
+    <ClCompile Include="..\Classes\sockets\UdpSocket.cpp" />
+    <ClCompile Include="..\Classes\sockets\Utility.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\CommonStructure.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\Logic\Define.h" />
+    <ClInclude Include="..\Classes\Logic\SGManager.h" />
+    <ClInclude Include="..\Classes\Logic\SGTable.h" />
+    <ClInclude Include="..\Classes\Logic\SGUser.h" />
+    <ClInclude Include="..\Classes\LoginLayer.h" />
+    <ClInclude Include="..\Classes\NetworkFacade.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\DataBuffer.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\IOBuffer.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\PacketCore.pb.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\ProtobufHandler.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\ProtobufSocket.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\ProtocolHandler.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\ProtocolSocket.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\SevenGamePacket.pb.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\SevenGameProtocol.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\SFPacket.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\SFPacketHeader.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\SFPacketStore.pb.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\SFProtobufPacket.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\SFProtobufPacketImpl.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\SFProtobufProtocol.h" />
+    <ClInclude Include="..\Classes\NetworkHandler\SFProtocol.h" />
+    <ClInclude Include="..\Classes\sockets\Base64.h" />
+    <ClInclude Include="..\Classes\sockets\Debug.h" />
+    <ClInclude Include="..\Classes\sockets\Event.h" />
+    <ClInclude Include="..\Classes\sockets\EventHandler.h" />
+    <ClInclude Include="..\Classes\sockets\EventTime.h" />
+    <ClInclude Include="..\Classes\sockets\Exception.h" />
+    <ClInclude Include="..\Classes\sockets\File.h" />
+    <ClInclude Include="..\Classes\sockets\FileStream.h" />
+    <ClInclude Include="..\Classes\sockets\HttpTransaction.h" />
+    <ClInclude Include="..\Classes\sockets\IBase.h" />
+    <ClInclude Include="..\Classes\sockets\IEventHandler.h" />
+    <ClInclude Include="..\Classes\sockets\IEventOwner.h" />
+    <ClInclude Include="..\Classes\sockets\IFile.h" />
+    <ClInclude Include="..\Classes\sockets\IFileUpload.h" />
+    <ClInclude Include="..\Classes\sockets\IHttpServer.h" />
+    <ClInclude Include="..\Classes\sockets\IModel.h" />
+    <ClInclude Include="..\Classes\sockets\IMutex.h" />
+    <ClInclude Include="..\Classes\sockets\Ipv4Address.h" />
+    <ClInclude Include="..\Classes\sockets\Ipv6Address.h" />
+    <ClInclude Include="..\Classes\sockets\ISocketHandler.h" />
+    <ClInclude Include="..\Classes\sockets\IStream.h" />
+    <ClInclude Include="..\Classes\sockets\Json.h" />
+    <ClInclude Include="..\Classes\sockets\ListenSocket.h" />
+    <ClInclude Include="..\Classes\sockets\Lock.h" />
+    <ClInclude Include="..\Classes\sockets\MemFile.h" />
+    <ClInclude Include="..\Classes\sockets\Mutex.h" />
+    <ClInclude Include="..\Classes\sockets\Parse.h" />
+    <ClInclude Include="..\Classes\sockets\ResolvServer.h" />
+    <ClInclude Include="..\Classes\sockets\ResolvSocket.h" />
+    <ClInclude Include="..\Classes\sockets\SctpSocket.h" />
+    <ClInclude Include="..\Classes\sockets\Semaphore2.h" />
+    <ClInclude Include="..\Classes\sockets\Singleton.h" />
+    <ClInclude Include="..\Classes\sockets\Socket.h" />
+    <ClInclude Include="..\Classes\sockets\SocketAddress.h" />
+    <ClInclude Include="..\Classes\sockets\SocketHandler.h" />
+    <ClInclude Include="..\Classes\sockets\SocketHandlerEp.h" />
+    <ClInclude Include="..\Classes\sockets\SocketHandlerThread.h" />
+    <ClInclude Include="..\Classes\sockets\sockets-config.h" />
+    <ClInclude Include="..\Classes\sockets\SocketStream.h" />
+    <ClInclude Include="..\Classes\sockets\SocketThread.h" />
+    <ClInclude Include="..\Classes\sockets\socket_include.h" />
+    <ClInclude Include="..\Classes\sockets\SSLInitializer.h" />
+    <ClInclude Include="..\Classes\sockets\StdLog.h" />
+    <ClInclude Include="..\Classes\sockets\StdoutLog.h" />
+    <ClInclude Include="..\Classes\sockets\StreamSocket.h" />
+    <ClInclude Include="..\Classes\sockets\StreamWriter.h" />
+    <ClInclude Include="..\Classes\sockets\TcpSocket.h" />
+    <ClInclude Include="..\Classes\sockets\Thread.h" />
+    <ClInclude Include="..\Classes\sockets\UdpSocket.h" />
+    <ClInclude Include="..\Classes\sockets\Utility.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

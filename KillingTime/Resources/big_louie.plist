@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>bl_bg.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {480, 228}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 46}</string>
+			<key>spriteSize</key>
+			<string>{480, 228}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 2}, {480, 228}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_door.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{166, 8}, {82, 130}}</string>
+			<key>spriteOffset</key>
+			<string>{-33, 87}</string>
+			<key>spriteSize</key>
+			<string>{82, 130}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{56, 806}, {82, 130}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_guy_1.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{392, 60}, {88, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{196, 29}</string>
+			<key>spriteSize</key>
+			<string>{88, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{284, 232}, {88, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_guy_1_no_gun.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{396, 60}, {84, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{198, 29}</string>
+			<key>spriteSize</key>
+			<string>{84, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{374, 232}, {84, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_guy_2.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{327, 8}, {96, 164}}</string>
+			<key>spriteOffset</key>
+			<string>{135, 70}</string>
+			<key>spriteSize</key>
+			<string>{96, 164}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 232}, {96, 164}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_guy_2_no_gun.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{370, 8}, {52, 164}}</string>
+			<key>spriteOffset</key>
+			<string>{156, 70}</string>
+			<key>spriteSize</key>
+			<string>{52, 164}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 806}, {52, 164}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_louie.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{17, 12}, {82, 202}}</string>
+			<key>spriteOffset</key>
+			<string>{-182, 47}</string>
+			<key>spriteSize</key>
+			<string>{82, 202}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 602}, {82, 202}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_louie_angry.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{17, 12}, {82, 202}}</string>
+			<key>spriteOffset</key>
+			<string>{-182, 47}</string>
+			<key>spriteSize</key>
+			<string>{82, 202}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 398}, {82, 202}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_louie_look_away.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{17, 11}, {82, 202}}</string>
+			<key>spriteOffset</key>
+			<string>{-182, 48}</string>
+			<key>spriteSize</key>
+			<string>{82, 202}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{100, 376}, {82, 202}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_officer.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{151, 14}, {90, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{-44, 75}</string>
+			<key>spriteSize</key>
+			<string>{90, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{192, 232}, {90, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_officer_shocked.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{151, 14}, {90, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{-44, 75}</string>
+			<key>spriteSize</key>
+			<string>{90, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{100, 232}, {90, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>bl_your_gun.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{222, 112}, {72, 104}}</string>
+			<key>spriteOffset</key>
+			<string>{18, -4}</string>
+			<key>spriteSize</key>
+			<string>{72, 104}</string>
+			<key>spriteSourceSize</key>
+			<string>{480, 320}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{86, 580}, {72, 104}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{512, 1024}</string>
+	</dict>
+</dict>
+</plist>

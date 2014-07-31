@@ -1,0 +1,16 @@
+info face="RosewoodStd-Regular" size=60 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=2,2
+common lineHeight=72 base=39 scaleW=256 scaleH=128 pages=1 packed=0
+page id=0 file="font.png"
+chars count=12
+char id=55 x=2 y=2 width=38 height=50 xoffset=2 yoffset=-2 xadvance=33 page=0 chnl=0 letter="7"
+char id=56 x=42 y=2 width=37 height=50 xoffset=3 yoffset=-2 xadvance=35 page=0 chnl=0 letter="8"
+char id=48 x=81 y=2 width=37 height=50 xoffset=3 yoffset=-2 xadvance=34 page=0 chnl=0 letter="0"
+char id=57 x=120 y=2 width=36 height=50 xoffset=3 yoffset=-2 xadvance=34 page=0 chnl=0 letter="9"
+char id=51 x=158 y=2 width=35 height=50 xoffset=3 yoffset=-2 xadvance=33 page=0 chnl=0 letter="3"
+char id=53 x=195 y=2 width=35 height=50 xoffset=3 yoffset=-2 xadvance=33 page=0 chnl=0 letter="5"
+char id=54 x=2 y=54 width=35 height=50 xoffset=3 yoffset=-2 xadvance=33 page=0 chnl=0 letter="6"
+char id=50 x=39 y=54 width=34 height=50 xoffset=3 yoffset=-2 xadvance=32 page=0 chnl=0 letter="2"
+char id=52 x=75 y=54 width=36 height=49 xoffset=2 yoffset=-1 xadvance=32 page=0 chnl=0 letter="4"
+char id=49 x=113 y=54 width=27 height=49 xoffset=3 yoffset=-1 xadvance=24 page=0 chnl=0 letter="1"
+char id=44 x=142 y=54 width=18 height=25 xoffset=3 yoffset=29 xadvance=16 page=0 chnl=0 letter=","
+char id=32 x=162 y=54 width=0 height=0 xoffset=11 yoffset=59 xadvance=12 page=0 chnl=0 letter="space"

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Contants">
+      <UniqueIdentifier>{491494ec-7320-4543-8735-5807f469a18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\JoystickClasses">
+      <UniqueIdentifier>{b86c2d2c-e56c-4c6f-bedb-207226ec32e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\KeyboardClasses">
+      <UniqueIdentifier>{f7c9b6f4-2824-49ad-a152-4b1dd40658f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes">
+      <UniqueIdentifier>{803628c3-7a4c-431b-9040-5b3012c739a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\Intro">
+      <UniqueIdentifier>{48cc6d41-c82e-4210-bc83-99cec0957178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\LevelComplete">
+      <UniqueIdentifier>{55a2280d-7bc0-4ea3-b2a4-4046155d689b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\Levels">
+      <UniqueIdentifier>{235be12e-0d02-4603-8338-c1843c8abf42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\LevelSelector">
+      <UniqueIdentifier>{e3475d12-072b-47d3-a429-cc32a7646ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\MainMenu">
+      <UniqueIdentifier>{1bdfca58-4f3e-4923-bd4c-e0448a551e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\PlayerSelector">
+      <UniqueIdentifier>{349ea016-588c-45b3-b0bb-cc6a2e757090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\Levels\BackGroundLayer">
+      <UniqueIdentifier>{8d569e01-1cbc-4a3b-9e54-a43516e7a019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Singltons">
+      <UniqueIdentifier>{06182cf2-641b-4fca-8890-ec76142be43b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JoystickClasses\SneakyButton.cpp">
+      <Filter>Classes\JoystickClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JoystickClasses\SneakyButtonSkinnedBase.cpp">
+      <Filter>Classes\JoystickClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JoystickClasses\SneakyJoystick.cpp">
+      <Filter>Classes\JoystickClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JoystickClasses\SneakyJoystickSkinnedBase.cpp">
+      <Filter>Classes\JoystickClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KeyboardClasses\Input.cpp">
+      <Filter>Classes\KeyboardClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\PlayerSelector\PlayerSelectorScene.cpp">
+      <Filter>Classes\Scenes\PlayerSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\MainMenu\MainScene.cpp">
+      <Filter>Classes\Scenes\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\LevelSelector\LevelSelectorScene.cpp">
+      <Filter>Classes\Scenes\LevelSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Levels\LevelGenerator.cpp">
+      <Filter>Classes\Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Levels\LevelGeneratorHud.cpp">
+      <Filter>Classes\Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Levels\BackgroundLayer\BGScene.cpp">
+      <Filter>Classes\Scenes\Levels\BackGroundLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Levels\BackgroundLayer\TextureBackground.cpp">
+      <Filter>Classes\Scenes\Levels\BackGroundLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\LevelComplete\GameOverScene.cpp">
+      <Filter>Classes\Scenes\LevelComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\LevelComplete\WinnerScene.cpp">
+      <Filter>Classes\Scenes\LevelComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Intro\IntroLayer.cpp">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Intro\IntroLayer2.cpp">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Intro\IntroLayer3.cpp">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Intro\IntroScene.cpp">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Intro\IntroScene2.cpp">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Intro\IntroScene3.cpp">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Singletons\AppDelegate.cpp">
+      <Filter>Classes\Singltons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Singletons\CCParallaxNodeExtras.cpp">
+      <Filter>Classes\Singltons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Singletons\GB2ShapeCache-x.cpp">
+      <Filter>Classes\Singltons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Singletons\GLES-Render.cpp">
+      <Filter>Classes\Singltons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Constants\Constants.h">
+      <Filter>Classes\Contants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JoystickClasses\SneakyButton.h">
+      <Filter>Classes\JoystickClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JoystickClasses\SneakyButtonSkinnedBase.h">
+      <Filter>Classes\JoystickClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JoystickClasses\SneakyJoystick.h">
+      <Filter>Classes\JoystickClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JoystickClasses\SneakyJoystickSkinnedBase.h">
+      <Filter>Classes\JoystickClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KeyboardClasses\Input.h">
+      <Filter>Classes\KeyboardClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\PlayerSelector\PlayerSelectorScene.h">
+      <Filter>Classes\Scenes\PlayerSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\MainMenu\MainScene.h">
+      <Filter>Classes\Scenes\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\LevelSelector\LevelSelector.h">
+      <Filter>Classes\Scenes\LevelSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Levels\LevelGenerator.h">
+      <Filter>Classes\Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Levels\LevelGeneratorHud.h">
+      <Filter>Classes\Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Levels\BackgroundLayer\BGScene.h">
+      <Filter>Classes\Scenes\Levels\BackGroundLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Levels\BackgroundLayer\TextureBackground.h">
+      <Filter>Classes\Scenes\Levels\BackGroundLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\LevelComplete\GameOverScene.h">
+      <Filter>Classes\Scenes\LevelComplete</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\LevelComplete\WinnerScene.h">
+      <Filter>Classes\Scenes\LevelComplete</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Intro\IntroLayer.h">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Intro\IntroLayer2.h">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Intro\IntroLayer3.h">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Intro\IntroScene.h">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Intro\IntroScene2.h">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Intro\IntroScene3.h">
+      <Filter>Classes\Scenes\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singletons\AppDelegate.h">
+      <Filter>Classes\Singltons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singletons\CCParallaxNodeExtras.h">
+      <Filter>Classes\Singltons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singletons\GB2ShapeCache-x.h">
+      <Filter>Classes\Singltons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singletons\GLES-Render.h">
+      <Filter>Classes\Singltons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

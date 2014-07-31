@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="192" height="128"/>
+ </tileset>
+ <layer name="Wall" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YsQ0AIAwDQRcZgP2nZQQqIgXO0g3wrStJAQAMsxrd7uiYDh06dOjQoUOHDh06dOjQoUOHDh2/d7zwJwIAcLYB+evXoBAnAAA=
+  </data>
+ </layer>
+ <layer name="Ground" width="50" height="50">
+  <properties>
+   <property name="cc_vertexz" value="-1000"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PsQ0AAAjDsC78/zJfwFBbygFJAAD4NAf58OHDhw8fPnz48OHDhw8fPnz48NH+AQBAhwVTx761ECcAAA==
+  </data>
+ </layer>
+ <layer name="Forest 6" width="50" height="50">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3GMQ6AIBQFQdQCLdT735ZX/4qWMJNssq0BAAAAwL6OdKar/Gp6utNTfjVv+tJfHgAAAABmDNNVN9YQJwAA
+  </data>
+ </layer>
+ <layer name="Forest 5" width="50" height="50">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3GsQ2AMBAEQQMBEBj3362vgs8IXpqRVtoxAAAAAIDOjnSmq/gO7vSkt/gOZvrSKh4AAACAf2xZ6xtfECcAAA==
+  </data>
+ </layer>
+ <layer name="Forest 4" width="50" height="50">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3GsQ2AMBAEQQMBEBj3362vhM/4YEZaaccAAAAAAPjPkc50Fb+rOz3pLX5XM31pFR8AAACgkw0lm0BgECcAAA==
+  </data>
+ </layer>
+ <layer name="Forest 3" width="50" height="50">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3GMQ6AIBQFQdQCLdT735Z3gl/RQGaSTbY1AAAAAABmONKZruJX0NOdnuJX8KYv/cUDAAAAexmchYjVECcAAA==
+  </data>
+ </layer>
+ <layer name="Forest 2" width="50" height="50">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3GwQ2AIBQFQcQDclD775Z35XdAMpNssq0BAAAAAMDuSj3d5U8z0pNm+dO86Ut/eQAAAGC3APW6f9AQJwAA
+  </data>
+ </layer>
+ <layer name="Forest 1" width="50" height="50">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3GMQ6AIBQFQdQCLdT735ZX/5oGMpNssq0BAAAAAMC+jnSmq/xqerrTU341b/rSXx4AAABmGE49/NEQJwAA
+  </data>
+ </layer>
+ <layer name="Trees 2" width="50" height="50">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3LMQqAQAwEwFMLtTj9/29NfUVIFZsZWFgWdgwAAAA6bJE9ciy9+sm2TmfkitxLr36yrdOMPJF36dVPtgEAAAAAAP/4APKaXQIQJwAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50">
+  <object name="SpawnPoint" x="732" y="683" width="81" height="27"/>
+ </objectgroup>
+ <layer name="Columns 1" width="50" height="50">
+  <properties>
+   <property name="cc_alpha_func" value="0.5"/>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3IoQ0AMAwDsKKiof1/7C6YFFipNnQVAAAAAAAAG3V4053wprvhAQAAfw9JiT0RECcAAA==
+  </data>
+ </layer>
+ <layer name="Trees 1" width="50" height="50">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3MMQqAQBAEwVMDNVD//1vnBwsuHAZV0MkEMwYAAAAAAMB3S1rTVmydvxn2dKSz2Dp/M1zpTk+xdf4AAAD+6gW0TAdLECcAAA==
+  </data>
+ </layer>
+ <layer name="Collidable" width="50" height="50">
+  <properties>
+   <property name="Collidable" value="True"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2XYQqAMAhGdwjvf9Z+CSMK0qF9q/dgFOGUx8DmGAAAAAD7YY2r2qMDPDTyd9XBQ6sOHlp17PQe7ftXcXffKvnieexcBw+tOn/2yPa1SqL5s/dzJY+VOUPFY3VmUvHw2OzMp+Th8ZmZVc3D9+zer1Tr2PR8cm+N5J33ch51+TN9VdFDsU70/7ayAAAAAOBdDg5zRIUQJwAA
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <tileset name="TileSet" firstgid="1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="fixed-ortho-test2.png"/>
+ </tileset>
+ <layer name="Layer 0" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNgoC/oBeK+QWAurdXTwlxauYEQyAfiAiqa1wjETVQ0bzIQT6GieUuBeBkOOWLCIhmIU4A4FcrfDsQ7cKglJixKgbgMiMuJ0ENMWLQDcQeRemBhEYiEHdD4IDwLKu7AgD/88IUFLoCsBwBCGvzXsAQAAA==
+  </data>
+ </layer>
+</map>
