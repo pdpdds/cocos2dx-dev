@@ -45,10 +45,10 @@ void SneakyJoystick::onExit()
 	CCDirector* pDirector = CCDirector::sharedDirector();
     pDirector->getTouchDispatcher()->removeDelegate(this);
 }
-
+/*
 float round(float r) {
     return (r > 0.0) ? floor(r + 0.5) : ceil(r - 0.5);
-}
+}*/
 
 void SneakyJoystick::updateVelocity(CCPoint point)
 {

@@ -51,8 +51,8 @@ bool HelloWorld::init()
         this->addChild(pSprite, 0);
 
 
-		this->runAction(CCSequence::actions(CCDelayTime::actionWithDuration(3),
-										CCCallFunc::actionWithTarget(this, callfunc_selector(HelloWorld::ChangeLogo)),
+		this->runAction(CCSequence::create(CCDelayTime::create(3),
+			CCCallFunc::create(this, callfunc_selector(HelloWorld::ChangeLogo)),
 										NULL));
 
         bRet = true;
