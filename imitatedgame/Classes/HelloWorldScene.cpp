@@ -202,7 +202,7 @@ void HelloWorld::draw()
 	// Default GL states: GL_TEXTURE_2D, GL_VERTEX_ARRAY, GL_COLOR_ARRAY, GL_TEXTURE_COORD_ARRAY
 	// Needed states:  GL_VERTEX_ARRAY, 
 	// Unneeded states: GL_TEXTURE_2D, GL_COLOR_ARRAY, GL_TEXTURE_COORD_ARRAY
-	glDisable(GL_TEXTURE_2D);
+	/*glDisable(GL_TEXTURE_2D);
 	glDisableClientState(GL_COLOR_ARRAY);
 	glDisableClientState(GL_TEXTURE_COORD_ARRAY);
 	
@@ -211,7 +211,7 @@ void HelloWorld::draw()
 	// restore default GL states
 	glEnable(GL_TEXTURE_2D);
 	glEnableClientState(GL_COLOR_ARRAY);
-	glEnableClientState(GL_TEXTURE_COORD_ARRAY);	
+	glEnableClientState(GL_TEXTURE_COORD_ARRAY);	*/
 }
 
 void HelloWorld::createTarget(const char* imageName ,CCPoint position ,float rotation ,bool isCircle ,bool isStatic ,bool isEnemy)
