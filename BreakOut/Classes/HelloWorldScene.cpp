@@ -75,7 +75,7 @@ HelloWorld::HelloWorld()
 	_groundBody->CreateFixture(&groundBox, 0);*/
     
     // Create sprite and add it to the layer
-	CCSprite *ball = CCSprite::create("Ball.jpg");
+	CCSprite *ball = CCSprite::	create("Ball.jpg");
     ball->setPosition(ccp(100, 100));
     ball->setTag(1);
     this->addChild(ball);
@@ -183,16 +183,16 @@ HelloWorld::HelloWorld()
 
 void HelloWorld::draw()
 {
-	glDisable(GL_TEXTURE_2D);
-	glDisableClientState(GL_COLOR_ARRAY);
-	glDisableClientState(GL_TEXTURE_COORD_ARRAY);
+	//glDisable(GL_TEXTURE_2D);
+	//glDisableClientState(GL_COLOR_ARRAY);
+	//glDisableClientState(GL_TEXTURE_COORD_ARRAY);
 	
 	//world->DrawDebugData();
 	
 	// restore default GL states
-	glEnable(GL_TEXTURE_2D);
-	glEnableClientState(GL_COLOR_ARRAY);
-	glEnableClientState(GL_TEXTURE_COORD_ARRAY);	
+	//glEnable(GL_TEXTURE_2D);
+	//glEnableClientState(GL_COLOR_ARRAY);
+	//glEnableClientState(GL_TEXTURE_COORD_ARRAY);	
 }
 
 void HelloWorld::tick(float dt)
