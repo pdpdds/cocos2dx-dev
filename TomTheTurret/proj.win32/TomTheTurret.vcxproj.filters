@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ActionLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLevel.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameState.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monster.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StoryLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActionLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLevel.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameState.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monster.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StoryLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
