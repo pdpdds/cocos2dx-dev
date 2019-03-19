@@ -10,14 +10,14 @@
 
 void GameLayer::draw() {
     
-    glDisable(GL_TEXTURE_2D);
-    glDisableClientState(GL_TEXTURE_COORD_ARRAY);
-    glDisableClientState(GL_COLOR_ARRAY);
+    //glDisable(GL_TEXTURE_2D);
+    //glDisableClientState(GL_TEXTURE_COORD_ARRAY);
+    //glDisableClientState(GL_COLOR_ARRAY);
     
     
-    glEnableClientState(GL_COLOR_ARRAY);
-    glEnableClientState(GL_TEXTURE_COORD_ARRAY);
-    glEnable(GL_TEXTURE_2D);	
+    //glEnableClientState(GL_COLOR_ARRAY);
+    //glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+    //glEnable(GL_TEXTURE_2D);	
 }
 
 ccColor3B GameLayer::generateDarkColor() {
@@ -129,7 +129,7 @@ void GameLayer::generateBackground() {
     
     glColor4f(1,1,1,1);
 	//[s visit];
-	s->visit();
+	//s->visit();
     //[rt end];
     rt->end();
     
