@@ -1,2 +1,2 @@
 # cocos2dx-dev
-cocos2dx 개발을 위한 샘플 게임 모음
+sample game collection for development of cocos2dx 2.x
