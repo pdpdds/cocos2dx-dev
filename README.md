@@ -35,4 +35,3 @@ go to the sample project's proj.win32 folder. and execute sln file. and build. t
 <img src="./img/snap0239.jpg">
 <img src="./img/snap0240.jpg">
 <img src="./img/snap0241.jpg">
-<img src="./img/snap0242.jpg">
