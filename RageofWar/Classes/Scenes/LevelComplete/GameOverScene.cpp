@@ -1,6 +1,6 @@
 // cpp with cocos2d-x
- #include "GameOverScene.h" ;
- #include "Scenes/MainMenu/MainScene.h" ;
+ #include "GameOverScene.h"
+ #include "Scenes/MainMenu/MainScene.h"
   #include "SimpleAudioEngine.h"
  using namespace cocos2d;
  using namespace CocosDenshion ;
