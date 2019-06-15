@@ -6,3 +6,12 @@ you need visual studio 2017
 download cocos2d-x library 2.2.6 and install : https://cocos2d-x.org/download
 download cocos2dx-dev source code(source code must be downloaded to cocos2d-x library folder)
 go to the project's proj.win32 folder. and execute sln file. and build. that's it.
+
+- Sample List
+<img src="./img/snap0215.jpg">
+<img src="./img/snap0216.jpg">
+<img src="./img/snap0217.jpg">
+<img src="./img/snap0218.jpg">
+<img src="./img/snap0219.jpg">
+<img src="./img/snap0220.jpg">
+<img src="./img/snap0221.jpg">
